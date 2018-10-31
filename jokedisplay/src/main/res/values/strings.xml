@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokeDisplay</string>
+    <string name="toolbar_joke_title">Here\'s Your Joke</string>
+</resources>
