@@ -32,7 +32,7 @@ class EndpointsAsyncTask extends AsyncTask<Pair<Context, MainActivity.JokeLoadIn
         try {
             return myApiService.sayHi().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            return "";
         }
     }
 
